@@ -1,0 +1,57 @@
+body {
+    margin-left: 100px;
+    margin-right: 100px;
+    background: #000000;
+    color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-spacing: 
+}
+
+h1, h2, h3, p {
+    color: #9b7ce4;
+}
+
+figure {
+    color: #9b7ce4;
+    float: right;
+    text-align: center;
+}
+
+figcaption {
+    padding: 10px;
+}
+
+a { color: inherit; }
+
+a:hover {
+    color: #c3b1ec;
+}
+
+a {
+    display: inline;
+    padding: 10px;
+}
+
+.another {
+ color: inherit;
+  padding: 0px;
+}
+
+.btn-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+.normal { 
+  background: 0;
+  padding: 0;
+  font-size: auto;
+  text-decoration: underline;
+}
+
+.scrolldiv {
+  height: 20em;
+  overflow: scroll;
+  padding: 1em;
+  overflow-x: hidden;
+  
+}

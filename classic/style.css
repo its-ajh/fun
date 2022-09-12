@@ -1,0 +1,135 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin:0;
+  padding:0;
+  text-align: left;
+  background: #000000;
+  color: #ffffff;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 24px;
+  background-image: url("none");
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  overflow-x: hidden;
+
+
+}
+
+
+ a:link {color:#ffffff !important;}
+    a:visited {color:#ffffff !important;}
+    a:hover {color:#4683d2 !important;}
+    a:active {color:#ffffff !important;}
+}
+
+hr.de {
+  border: 4px solid #ffffff;
+}
+
+.page {
+  padding: 10px;
+  max-width: 1600px;
+  margin: auto;
+}
+.centered {
+ display: flex;
+  justify-content: center;
+  text-align: center;
+}
+a
+{
+  background-color:#333333;color:#ffffff;border-radius:1em;text-decoration: none; padding: 20px; margin: 10px;
+  transform: scale(1);
+  transition: 0.05s;
+
+  
+}
+a:hover{
+  transform: scale(1.2);
+  transition: 0.05s;
+   box-shadow: 0px 20px 50px black;
+}
+.btn-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+.normal { 
+  background: 0;
+  padding: 0;
+  font-size: auto;
+  text-decoration: underline;
+}
+.normal:hover {
+  box-shadow: none;
+   transform: scale(1.1);
+}
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #ffffff #0f0f0f;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 22px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #0f0f0f;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 3px solid #0f0f0f;
+  }
+.scrolldiv {
+  height: 20em;
+  overflow: scroll;
+   background-color:#333333;
+  border-radius: 1em 0 0 0;
+  padding: 1em;
+  
+}
+
+@keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
+.animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+  opacity: 0
+    -webkit-animation-fill-mode: both
+}
+
+
+.fadeInUp {
+    opacity: 0;
+    animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
+}

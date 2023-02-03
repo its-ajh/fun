@@ -1,0 +1,32 @@
+html, body {
+  height: 100%;
+  width: 100%;
+
+  background: #8c52ff !important;
+  color: #ffff !important;
+}
+.dropdown-item {
+  color: #000 !important;
+}
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #aa80ff #ddccff;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 16px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #ddccff;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #aa80ff;
+
+    
+    border: 3px solid #aa80ff;
+  }

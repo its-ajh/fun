@@ -1,32 +1,130 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;900&display=swap');
+
 html, body {
   height: 100%;
   width: 100%;
-
-  background: #8c52ff !important;
-  color: #ffff !important;
+  background: #030303;
+  color: #ffffff;
+  overflow-x: hidden;
+  display: auto;
+  font-family: 'Barlow', sans-serif;
+  margin: 0px;
+  line-height: 1em;
+  font-size: 1em;
 }
-.dropdown-item {
-  color: #000 !important;
+
+a {
+color: inherit;
+text-decoration: none;
+padding-right: 0.5em;
+padding-bottom: 1.1em;
+font-size: 1.2em;
+line-height: 1.5em;
 }
-/* ===== Scrollbar CSS ===== */
-  /* Firefox */
-  * {
-    scrollbar-width: auto;
-    scrollbar-color: #aa80ff #ddccff;
-  }
 
-  /* Chrome, Edge, and Safari */
-  *::-webkit-scrollbar {
-    width: 16px;
-  }
+.areg {
+color: #82a3ee;
+text-decoration: underline;
+font-size: 1.1em;
+padding-right: 0em;
+padding-bottom: 0em;
+}
 
-  *::-webkit-scrollbar-track {
-    background: #ddccff;
-  }
+.areg:hover {
+color: #5481e8;
+}
 
-  *::-webkit-scrollbar-thumb {
-    background-color: #aa80ff;
+.areg-pad {
+color: #82a3ee;
+text-decoration: none;
+font-size: 1.1em;
+}
 
-    
-    border: 3px solid #aa80ff;
-  }
+.areg-pad:hover {
+color: #5481e8;
+}
+
+a:hover {
+color: #82a3ee;
+}
+
+h1 {
+font-family: 'Barlow', sans-serif;
+font-weight: 900;
+font-size: 4em;
+}
+
+.gradientthingy {
+padding: 0px;
+margin: 0 0;
+background: linear-gradient(to right, #7f07c0 0%, #589ef9 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+p {
+font-family: 'Barlow', sans-serif;
+font-weight: 400;
+font-size: 1.5em;
+line-height: 1.25em;
+}
+
+.pwithoutthep {
+font-family: 'Barlow', sans-serif;
+font-weight: 400;
+font-size: 1.5em;
+line-height: 1.25em;
+}
+
+.light-mode {
+background: #eeeeee;
+color: #000000;
+}
+
+.smallbr {
+padding-bottom: 1em;
+}
+
+hr {
+border-radius: 4px;
+width: 100%;
+color: #ffffff;
+}
+
+i {
+color: #ffffff;
+font-size: 1em;
+}
+
+.padding {
+padding: 20px;
+}
+
+.card {
+border: solid #ffffff 4px;
+width: 40%;
+padding-top: 4px;
+padding-bottom: 20px;
+padding-left: 20px;
+padding-right: 20px;
+border-radius: 2em;
+margin: 0px;
+text-align: left;
+
+word-wrap: break-word;
+}
+
+.smol {
+font-size: 0.5em !important;
+opacity: 0.5em !important;
+}
+
+.scrolldiv-tiny {
+  height: 16em;
+  overflow: scroll;
+  padding: 1em;
+  overflow-x: hidden;
+  border: solid #ffffff 4px;
+  border-radius: 2em;
+}
